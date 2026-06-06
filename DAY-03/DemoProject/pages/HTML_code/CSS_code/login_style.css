@@ -1,0 +1,28 @@
+ body{
+            background-color: #333333;
+    }
+
+#login_message{
+    color:white;
+    text-align: center;
+    
+}
+
+#username{
+    color:white;
+    background-color: #333333;
+}
+
+#password{
+    color:white;
+    background-color: #333333;
+}
+
+#login_in{
+    color:white;
+    background-color: #02a2f8;
+}
+
+#forget{
+    text-decoration:none;
+}
