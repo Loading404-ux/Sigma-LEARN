@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    
+    <form action="/submit.php">
+
+        <!-- Name input -->
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter Name" required>
+        </div>
+
+        <!-- Phone Number input -->
+        <div>
+            <label for="phone">Mobile no.</label>
+            <input id="phone" type="tel" placeholder="Enter Mobile no." required>
+        </div>
+
+
+        <!-- Number input -->
+        <div>
+            <label for="age">Age</label>
+            <input id="age" type="number" placeholder="Enter Age" required>
+        </div>
+
+
+        <!-- Date input -->
+        <div>
+            <label for="dob">D.O.B</label>
+            <input id="dob" type="date" required>
+        </div>
+
+        <!-- Email imput -->
+         <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter Email" required>
+        </div>
+
+        <!-- URL input  -->
+        <div>
+            <label for="git">GitHub Link</label>
+            <input id="git" type="url" placeholder="Enter URL" required>
+        </div>
+
+        <!-- Search input  -->
+        <div>
+            <label for="search"></label>
+            <input id="search" type="search" placeholder="Search or ask anything">
+        </div>
+
+
+        <!-- Time input  -->
+        <div>
+            <label for="time">Time</label>
+            <input id="time" type="time" required>
+        </div>
+
+
+        <!-- Datetime Local input  -->
+        <div>
+            <label for="datetime">Datetime Local</label>
+            <input id="datetime" type="datetime-local" required>
+        </div>
+
+
+        <!-- Month input  -->
+         <div>
+            <label for="month">Month</label>
+            <input id="month" type="month" required>
+         </div>
+
+
+         <!-- Week input  -->
+          <div>
+            <label for="week">Week</label>
+            <input id="week" type="week" required>
+         </div>
+
+         <!-- color input  -->
+          <div>
+            <label for="color">Color</label>
+            <input id="color" type="color" required>
+          </div>
+
+
+        <!-- choose file -->
+          <div>
+            <label for="choose_file"></label>
+            <input id="choose_file" type="file" accept="image/*,.pdf,audio/*" >
+            for more accept attribute <a href="accept_attribute.png">Learn more!!!</a>
+          </div>
+          
+
+
+          
+        <!-- Dropdown (select item) for Gender -->
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+
+       
+        
+        <!-- Reset Button -->
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+        <!-- Submit button -->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+
+
+
+
+    <footer>
+        <div><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input" target="_blank"><h3>Learn more</h3></a> </div>
+    </footer>
+</body>
+</html>
