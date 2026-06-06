@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox & Radio button & Dropdown & Range</title>
+</head>
+<body>
+
+    <form action="/server.php">
+        <!-- Checkbox - Basic -->
+
+    <div>
+        <input type="checkbox" name="age_21" id="age">
+        <label for="age">I am 21+</label>
+    </div>
+    <!-- by default checked -->
+    <div>
+        <input type="checkbox" name="age_18" id="age_checked" checked>
+        <label for="age_checked">I am 18+</label>
+    </div>
+
+    <button type="submit">Submit</button>
+
+    </form>
+    <hr>
+
+
+    <form action="/server.php">
+
+        <!-- Radio Button -->
+        <div><h2>Select your caste :</h2></div>
+    <div>
+        <input type="radio" id="general" name="caste" value="general">
+        <label for="general">General</label>
+        <input type="radio" id="obc" name="caste" value="obc">
+        <label for="obc">OBC</label>
+        <input type="radio" id="st" name="caste" value="st">
+        <label for="st">ST</label>
+        <input type="radio" id="sc" name="caste" value="sc">
+        <label for="sc">SC</label>
+    </div>
+     <button type="submit">Submit</button>
+    </form>
+<hr>
+    <form action="/server.php">
+        <!-- Checkbox complex level -->
+         <div><h2>Choose your subject :</h2></div>
+        <div>
+            <input type="checkbox" name="sub" id="eng" value="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">Mathematics</label>
+            <input type="checkbox" name="sub" id="phy" value="phy">
+            <label for="phy">Physics</label>
+            <input type="checkbox" name="sub" id="chem" value="chem">
+            <label for="chem">Chemistry</label>
+            <input type="checkbox" name="sub" id="cs" value="cs">
+            <label for="cs">Computer Science</label>
+        </div>     
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Dropdown -->
+
+    <form action="/server.php">
+
+        <label for="query"><h3>Select your query issue :</h3></label>
+        <select name="query" id="query">
+            <option disabled selected>Select your option</option>
+            <option value="delay_refund">Delay in Refund</option>
+            <option value="issue_cc">Credit Card</option>
+            <option value="issue_dc">Debit Card</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <hr>
+
+    <!-- Range -->
+    <form action="/server.php">
+        <label for="volume"><h3>Select your volume level :</h3></label>
+        <input type="range" id="volume" min="0" max="100" name="vol" step="1" value="70">
+
+        <button type="submit">Submit</button>
+    </form>
+<hr>
+    <!-- Text Area -->
+
+    <form action="/server.php">
+
+        <label for="textarea">Please, write your valueable feedback -></label>
+        <textarea name="feedback" id="textarea" rows="10" cols="100" placeholder="Write!!!"></textarea>
+
+        <div><button type="submit">Submit</button></div>
+    </form>
+    <hr>
+
+</body>
+</html>
