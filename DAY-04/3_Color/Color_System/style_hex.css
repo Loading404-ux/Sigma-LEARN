@@ -1,0 +1,24 @@
+/* There are two types of Color System. */
+
+/* 1. RGB */
+/* 2. Hex */
+
+/* HEX */
+
+body{
+    background-color: #536B78;
+}
+
+h1{
+    color:#ffffff;
+}
+
+p{
+    color:#ffffed;
+}
+
+button
+{
+    background-color: #e4deb3;
+    color: #000000;
+}

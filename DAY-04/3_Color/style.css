@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(0, 0, 0, 0.845);
+}
+
+h1{
+    color: rgb(143, 139, 15);
+}
+
+p{
+    color: gold;
+}
+
+button{
+    background-color: black;
+    color: wheat;
+}
