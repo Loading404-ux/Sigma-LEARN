@@ -1,0 +1,38 @@
+#underline
+{
+    text-decoration:  underline;
+}
+
+#underline-color
+{
+    text-decoration:  red underline;
+}
+
+#overline{
+    text-decoration: overline;
+}
+
+#overline-color{
+    text-decoration: green wavy overline;
+}
+
+#line-through{
+    text-decoration:wavy orange line-through;
+}
+
+#plain{
+    text-decoration: none;
+}
+
+#underover{
+    text-decoration:dashed underline  overline ;
+    
+}
+
+#thick{
+    text-decoration: solid purple underline 5px;
+}
+
+/* #blink{
+    text-decoration: blink;
+/* } *//*-->its does not work */

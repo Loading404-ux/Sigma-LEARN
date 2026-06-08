@@ -1,0 +1,16 @@
+body{
+    background-color: #232730 ;
+}
+h1{
+    text-align:center;
+    color:white;
+}
+
+#english{
+    color:aliceblue;
+    text-align:left;    /*By default the text alignment is set on left.*/
+}
+
+#urdu{
+    text-align: right;    /*Because urdu like languages are written from right to left.*/
+}

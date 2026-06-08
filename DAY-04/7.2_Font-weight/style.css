@@ -1,0 +1,33 @@
+/* By default the wight of the heading tag is set to bold */
+
+#first_head{
+    text-align: center;
+    font-weight:normal;
+}
+
+#second_head{
+    text-align: center;
+    font-weight:lighter;
+}
+
+#third_head{
+    text-align: center;
+    font-weight:bolder;
+}
+
+/* the weight of the font-weight can range from 100-900  */
+
+
+#forth_head{
+    text-align: center;
+    font-weight:400;
+}
+
+#first_para
+{
+    font-weight:bolder;
+}
+
+#second_para{
+    font-weight:900;
+}
