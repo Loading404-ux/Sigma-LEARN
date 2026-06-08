@@ -1,0 +1,36 @@
+/* Selector */
+
+/* 1. Universal Selector. */
+
+*{
+    color:blue;
+}
+/* Universal Selector applys to the whole document */
+
+/* 2.Element Selector */
+
+h1{
+    color:green;
+}
+
+button{
+    color:rgb(28, 129, 129);
+}
+/* Select all the item of the same selector category */
+
+/* 3. Id Selector */
+
+#HeadingOne{
+    color:red;
+}
+
+#HeadingTwo{
+    color:aqua;
+}
+/* It select the elements of the same id given in the HTML code */
+
+/* 4.Class Selector */
+
+.GroupinMain{
+    color:chocolate;
+}
