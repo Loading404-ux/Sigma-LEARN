@@ -52,3 +52,16 @@ div>input{
 
 
 /* Attribute Selector */
+
+input[type="text"]{
+    color:green;
+}
+
+input[type="password"]
+{
+    color:red;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
