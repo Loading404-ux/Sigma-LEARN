@@ -1,0 +1,48 @@
+/* PART A(Selectors) */
+
+#mainTopic{
+    color:blue;
+}
+
+*{
+    text-align: center;
+}
+
+h1,h3,h5{
+    font-family: Georgia;
+}
+
+.para{
+    background-color: cornflowerblue;
+    color:white;
+}
+
+ div  button{
+   background-color: purple;
+    color: azure;
+}
+
+
+/* PART B(Pseduoclass&elements) */
+
+button:hover{
+    background-color: yellow;
+    color:blue;
+}
+
+p:nth-of-type(odd){
+ color:yellow;
+}
+
+
+h1::first-letter{
+    color:red;
+}
+
+input[type="checkbox"]:checked + label{
+color:darkgreen;
+}
+
+
+
+/* #mainContent > div.main > .main > h1 */
