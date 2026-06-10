@@ -13,6 +13,11 @@ div{
      /* Border Shorthand */
 
     border:5px solid black;
+
+    /* Border sides */
+
+    border-left-style: dashed;
+    border-left-color: red;
 }
 
 h1{
@@ -25,5 +30,9 @@ h1{
     /* Border Shorthand */
 
     border: 2px dashed green;
+
+    /* Border sides - Shorthand*/
+
+    border-top: 2px solid red;
 }
 
