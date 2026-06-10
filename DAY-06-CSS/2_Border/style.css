@@ -2,4 +2,28 @@ div{
     height:200px;
     width:900px;
     background-color: blanchedalmond;
+    /* Border */
+
+    /* Simple */
+
+    /* border-width:5px;
+    border-style:solid;
+    border-color:black; */
+
+     /* Border Shorthand */
+
+    border:5px solid black;
 }
+
+h1{
+    /* Simple */
+
+    /* border-width:2px;
+    border-style:dashed;
+    border-color:green; */
+
+    /* Border Shorthand */
+
+    border: 2px dashed green;
+}
+
