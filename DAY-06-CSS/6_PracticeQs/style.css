@@ -1,0 +1,33 @@
+#outer_div{
+    height:200px;
+    width:70px;
+    border:2px solid black;
+}
+
+#inner_div_red{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    background-color: red;
+    border-radius:50%;
+}
+
+#inner_div_yellow{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    background-color: yellow;
+    border-radius:50%;
+}
+
+
+#inner_div_green{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    background-color: green;
+    border-radius:50%;
+}
