@@ -1,0 +1,14 @@
+/* Display Property */
+
+/* display:inline */
+/* display:block */
+
+h2{
+    display: inline;
+    background-color: pink;
+}
+
+span{
+    display: block;
+    background-color: aqua;
+}

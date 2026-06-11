@@ -1,0 +1,16 @@
+span{
+    background-color: yellow;
+    height:100px;
+    width:200px;
+    border:2px solid black;
+    padding:50px;  /*Padding is only applied on Left & Right*/
+    margin:50px;   /*Margin is only applied on Left & Right*/
+}
+
+div{
+    height:100px;
+    width:200px;
+    border:2px solid black;
+    padding:50px;  
+    margin:50px; 
+}
