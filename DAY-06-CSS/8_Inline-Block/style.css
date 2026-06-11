@@ -1,0 +1,24 @@
+/* div{
+    height:200px;
+    width:200px;
+    background-color: yellowgreen;
+    margin:3px;
+    border:2px solid black;
+    display:inline;
+} */
+ /* ^- wrong way to do that */
+
+div{
+    height:200px;
+    width:200px;
+    background-color: yellowgreen;
+    margin:3px;
+    border:2px solid black;
+    display:inline-block;
+}
+
+/* if u want to disapper some element */
+
+#third{
+    display:none;
+}
