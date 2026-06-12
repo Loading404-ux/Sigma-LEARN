@@ -1,0 +1,9 @@
+/* Snowball efect can be overcome by using rem in place of em */
+
+section{
+    font-size:25px;
+}
+
+div{
+    font-size:2rem;
+}

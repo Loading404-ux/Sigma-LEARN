@@ -1,0 +1,39 @@
+#outer{
+    font-size:20px;
+    border:2px solid black;
+    height:400px;
+    width:400px;
+    background-color: pink;
+}
+
+#inner{
+    border:2px solid black;
+    height:100px;
+    width:100px;
+    background-color: mediumturquoise;
+
+    font-size:2em;
+
+    padding:1em;
+}
+
+button{
+    font-size:50px;
+    border-radius:15px;
+    border:3px solid green;
+
+    padding-left:0.50em;
+    padding-right:0.50em;
+}
+
+
+/* Snowball Effect */
+
+section{
+    font-size:25px;
+}
+
+div{
+    font-size:2em;
+}
+
