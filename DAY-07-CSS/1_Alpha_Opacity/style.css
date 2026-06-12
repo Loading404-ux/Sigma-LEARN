@@ -1,0 +1,28 @@
+/* Alpha in RGB */
+
+#Alpha_RGB{
+    height:200px;
+    width:200px;
+    background-color: rgba(255,0,0,0.5);
+    margin-bottom:20px;
+}
+
+/* Alpha in Hex */
+
+
+#Alpha_Hex{
+    height:200px;
+    width:200px;
+    background-color: #a1ff00a1;
+}
+
+/* Opacity */
+
+/* Changes the visibility of the color */
+
+#opacity{
+    height:200px;
+    width:200px;
+    background-color: chocolate;
+    opacity: 0.5;
+}
