@@ -1,0 +1,10 @@
+div{
+    height:300px;
+    width:300px;
+    background-color: #7aa874;
+    margin:20px auto;
+    background-image:url(bgimage.jpg);
+}
+
+
+/* The image on the website seems to be zoomed in and blured .... So that's why we study Background-Size to fix this */

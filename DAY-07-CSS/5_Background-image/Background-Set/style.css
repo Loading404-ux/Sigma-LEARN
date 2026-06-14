@@ -1,0 +1,30 @@
+#contain{
+    height:250px;
+    width:400px;
+    background-color: #7aa874;
+    margin:20px auto;
+    background-image:url(bgimage.jpg);
+    color:white;
+    background-size:contain;
+}
+
+#cover{
+    height:250px;
+    width:400px;
+    background-color: #7aa874;
+    margin:20px auto;
+    background-image:url(bgimage.jpg);
+    color:white;
+    background-size:cover; /*Most used*/
+}
+
+#auto{
+    height:250px;
+    width:400px;
+    background-color: #7aa874;
+    margin:20px auto;
+    background-image:url(bgimage.jpg);
+    color:white;
+    background-size:auto;
+}
+
