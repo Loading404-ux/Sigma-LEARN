@@ -1,0 +1,91 @@
+section{
+    margin-top:100px;
+}
+
+div{
+    height:50px;
+    width:200px;
+    text-align: center;
+    background-color: #7aa874;
+    border:2px solid black;
+    margin:30px;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+
+                                                /* transform */
+
+                /* (i) rotate */
+
+/* #one{
+    transform: rotate(45deg);
+} */
+
+/* We can also give -ve degree */
+
+#one{
+    transform: rotate(-45deg);
+}
+
+                    /* (ii) scale */
+
+/* #two{
+    transform: scale(0.5);
+} */
+
+
+/* Scale both axis in different co-ordinate */
+
+/* #two{
+    transform: scale(0.5,2);
+} */
+
+/* Scale only in X-axis */
+
+
+#two{
+    transform:scaleX(2);
+}
+
+/* Scale only in Y-axis */
+
+
+#two{
+    transform:scaleY(0.5);
+}
+
+                            /* (iii) translate*/
+
+
+/* translate both axis in different co-ordinate */
+
+/* #three{
+    transform:translate(50px,50px);
+} */
+
+/* translate only in X-axis */
+
+#three{
+    transform: translateX(10px);
+}
+
+/* translate only in Y-axis */
+
+#three{
+    transform:translateY(30px);
+}
+
+
+                                        /* (iv) skew */
+
+#four{
+    transform: skew(30deg);
+}
+
