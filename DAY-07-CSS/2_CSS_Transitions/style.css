@@ -1,0 +1,28 @@
+#transition{
+    height:200px;
+    width:200px;
+    background-color: green;
+    transition-duration:1s;
+}
+
+#transition:hover{
+    background-color: black;
+    border-radius:50%;
+}
+
+#trans_shorthand{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+    margin-top:10px;
+    margin:0 auto; /*Auto Center*/
+
+    /* Transition Shorthand */
+    /* property name|duration|timing-function|delay */
+    transition:margin-top 1s linear 0.5s;
+}
+
+#trans_shorthand:active{
+    margin-top:400px;
+    background-color: pink;
+}
