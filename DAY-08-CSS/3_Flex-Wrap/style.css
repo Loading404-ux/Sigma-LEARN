@@ -1,0 +1,36 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+
+   
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+
+    /* flex-wrap */
+
+     /* nowrap --> By default flex-wrap is set to nowrap means no line change */ 
+     /* wrap --> change line when the upperline fills on width. */
+     /* wrap-reverse --> Cross axis reverse direction wrap */
+
+     flex-wrap: wrap-reverse;
+
+
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height:100px;
+    width:300px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+}
