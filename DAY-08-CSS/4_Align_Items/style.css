@@ -7,13 +7,13 @@
     display:flex;
     flex-direction:row;
     justify-content: flex-start;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
     /* align-items */
     /* align-items: flex-start; */
     /* align-items: flex-end; */
     /* align-items: center; */
-    align-items:baseline;
+    align-items:center; /*line up - down adjust cross axis*/
 }
 
 h1{
