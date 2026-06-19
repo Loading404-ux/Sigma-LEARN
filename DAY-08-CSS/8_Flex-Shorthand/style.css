@@ -13,9 +13,9 @@
 }
 #org{
     /* align-self: flex-end; */
-    /* flex-basis:50px; */
-    /* flex-grow:1; */
-    flex-shrink:3;
+    /* Flex-Shorthand */
+    flex:2 100px;   /*flex-grow|flex-basis*/
+    /* flex-shrink:3; */
     /* limit the element if row -> width && column -> height*/
 
     /* max-width:280px;
