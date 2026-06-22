@@ -1,0 +1,46 @@
+h1{
+    border:2px solid black;
+}
+
+/* @media (width:400px){
+    h1{
+    background-color: red;
+    color:white;
+    }
+} */
+
+
+/* OR */
+
+/* @media (min-width:800px){
+    h1{
+        background-color: pink;
+        color:yellow;
+    }
+}
+@media (max-width:500px){
+    h1{
+        background-color: green;
+        color:brown;
+    }
+}
+ */
+
+@media (min-width:200px) and (max-width:500px){
+    h1{
+        background-color: pink;
+        color:yellow;
+    }
+}
+
+
+
+/* orientation */
+
+@media (orientation: landscape)
+{
+    h1{
+        background-color: aqua;
+        color:red;
+    }
+}
